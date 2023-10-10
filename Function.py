@@ -1,4 +1,4 @@
-# Python Function
+# Python Function -----------------------
 def greet(name):
     """
     This function takes a name as an argument and prints a greeting message.
@@ -8,7 +8,7 @@ def greet(name):
 # Calling the function
 greet("Alice")
 
-# Function Argument
+# Function Argument----------------------
 def add(a, b):
     """
     This function takes two numbers as arguments and returns their sum.
@@ -18,7 +18,7 @@ def add(a, b):
 result = add(5, 3)
 print("Sum:", result)
 
-# Python Recursion
+# Python Recursion-----------------------
 def factorial(n):
     """
     This function calculates the factorial of a number using recursion.
@@ -31,11 +31,11 @@ def factorial(n):
 fact = factorial(5)
 print("Factorial of 5:", fact)
 
-# Anonymous Function (Lambda)
+# Anonymous Function (Lambda)------------
 square = lambda x: x * x
 print("Square of 4:", square(4))
 
-# Global, Local, and Nonlocal Variables
+# Global, Local, and Nonlocal Variables-------------------
 x = 10  # Global variable
 
 def my_function():
