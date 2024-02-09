@@ -12,7 +12,7 @@ flights = [
     flight("Turkish", 803, "in Route" )
 ]
 
-#to sort student by grade.
+
 flightResult = []
 for flight in flights:
     if flight.status == "arrived":
