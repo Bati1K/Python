@@ -1,8 +1,9 @@
+
 # Initialize variables
 daily_goal = []
 water_intake = 0
 
-user_input = input("What's your daily water intake goal (in glasses)? ")
+user_input = input("Hello! What's your daily water intake goal (in glasses)? ")
 daily_goal.append(float(user_input))
 
 # Loop to track water intake
